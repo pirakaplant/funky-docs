@@ -21,6 +21,7 @@ When writing this document, I took a look at the other HUDs, and realised that n
 - The diagnostic HUD and its variants will be removed from the game
 - The administrative glasses and its variants will be removed from the game.
 - The beer goggles will be removed from the game.
+- The fake mindshield implant will be removed from the game (as it's no longer really needed, nobody will be able to see mindshields anymore).
 
 Instead:
 
@@ -31,7 +32,7 @@ Instead:
 
 ### Panopticon Helm
 
-A bulky, white helmet with an opaque, adjustable visor that covers the eyes. It hums like a distant, untuned TV. A lopsided radio antenna sticks out the top. An icon of an eye is stencilled onto the front.
+A bulky, white helmet with an opaque, adjustable visor that covers the eyes. A lopsided radio antenna sticks out the top. An icon of an eye is stencilled onto the front.
 
 The panopticon helm can be found in the Warden's locker. It can be worn in the helmet slot. It slows the wearer down slightly and provide mild protection from brute damage.
 
@@ -71,13 +72,12 @@ I anticipate that the removal of the medical and diagnostic HUDs will lead to Me
 
 I anticipate that the addition of the panopticon helm will make leaving the brig a more conscious choice for the Warden. It wouldn't bar them from leaving entirely (which is something we don't want to encourage anyway), but them actively having to take their helmet off to go have a drink is going to cut down on unnecessary Wardloosing.
 
-
 ## Administrative & Server Rule Impact (if applicable)
 
 Not applicable.
 
 # Technical Considerations
 
-The panopticon helmet would require a new system for rendering its "camera-watching" effect. The Station AI's code could be used as a reference on how to implement this.
+The panopticon helmet would require changes to the `StationAiOverlaySystem` to provide an option for rendering its "camera-watching" effect.
 
 Besides that, this PR would only require YAML changes.
