@@ -2,11 +2,11 @@
 
 | Designers | Implemented | GitHub Links |
 |---|---|---|
-| pirakaplant | :information_source: Open PR | funky-station/funky-station#2828, funky-station/funky-station#2829 |
+| pirakaplant | :information_source: Open PR | *(Funky)* funky-station/funky-station#2828, funky-station/funky-station#2829<br>*(Forky)* funky-station/forky-station#27 |
 
 ## Overview
 
-This is a proposal to remove all nonlethal options from security's arsenal. They will have (nerfed) truncheons as a "less-lethal" weapon instead of stun batons.
+This is a proposal to remove all nonlethal options from security's arsenal. They will have nightsticks as a "less-lethal" weapon instead of stun batons.
 
 ## Background
 
@@ -16,15 +16,13 @@ One of the major issues with following this direction is that there is a **ludon
 
 ## Features to be added
 
-- The stun baton, the disabler, and the disabler plus will be removed from the game.
+- The stun baton, the disabler, the disabler plus, and the taser will be removed from the game.
 - Lasers with a disable feature will have that setting removed.
-- Security personnel will start with a truncheon in place of a stun baton.
-- The truncheon will do less damage (probably about half or so). Its stamina damage will be unchanged.
-- Truncheons will be able to be made roundstart, and will no longer be unlocked by the Riot Control (buff the knuckledusters or something to make it still worth it).
+- Security personnel will start with a telescopic nightstick in place of a stun baton, which has decent damage and a high stamina/blunt damage factor when extended.
 - HOP will get a different self-defence weapon, in the form of a cane that can launch people (specifics are outside the scope of this document).
 - Other jobs with disablers will have them either removed or replaced with RG-2s.
 - SOPs will be update accordingly, with most jobs allowed to carry disablers instead being allowed to carry a sidearm in the same circumstances.
-- Characters with the Pacifism trait will not be able to roll Security jobs.
+- Characters with the Pacifism trait will have it removed when they enter the game with a Security job, and will receive some kind of marker indicating this on the job selection tab.
 
 ## Game Design Rationale
 
@@ -38,7 +36,7 @@ One thing that [corporate secrets](/corporate-secrets.md) achieved was that it m
 
 ### The Stunmeta
 
-Getting rid of disablers would also pretty much kill the stunmeta. While truncheons can still stun, security officers will have to get in close to use them, and being truncheoned feels more authentic than being stunbatoned.
+Getting rid of disablers would also pretty much kill the stunmeta. While nightsticks can still stun, security officers will have to get in close to use them, and they will be less effective against armoured targets. Besides, being beaten down feels more authentic than being stunbatoned.
 
 ## Roundflow & Player interaction
 
